@@ -25,5 +25,5 @@ func main() {
 	app.Get("/user/:id", handler.Get)
 	app.Post("/user", handler.Create)
 	app.Listen(":3001")
-	fmt.Println("Server running on port 3000")
+	fmt.Println("Server running on port 3001")
 }
